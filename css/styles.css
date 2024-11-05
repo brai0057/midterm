@@ -1,0 +1,48 @@
+/* Primary color */
+:root {
+    --primary-color: #aad4cf;
+}
+
+/* General styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+}
+
+/* Header styling */
+header {
+    position: relative;
+    text-align: center;
+    color: white;
+}
+
+header img {
+    width: 100%;
+    height: auto;
+}
+
+header h1 {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    color: var(--primary-color);
+}
+
+/* Article styling */
+#story img {
+    max-width: 200px;
+    float: left;
+    margin-right: 10px;
+}
+
+/* Facts list styling */
+#facts ul {
+    list-style-type: square;
+    padding-left: 20px;
+}
+
+/* Form styling */
+form {
+    display: flex;
+    flex-direction: column;
+}
